@@ -1,0 +1,54 @@
+/* styles/Calendar.module.css */
+.calendarContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.slotList {
+  margin-top: 20px;
+}
+
+.slot {
+  margin: 5px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.slot:hover {
+  background-color: #e0e0e0;
+}
+
+.event {
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.statusMessage {
+  margin: 10px 0;
+  font-weight: bold;
+}
